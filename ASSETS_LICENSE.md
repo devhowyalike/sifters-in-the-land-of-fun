@@ -17,7 +17,7 @@ If you fork or otherwise use the code portion of this project in a way that disp
 1. You must maintain this license file with the project
 2. You must include a visible credit to Yameen as the creator of all artwork, sounds, and creative assets
 3. You must include the title of this project (Sifters in the Land of Fun)
-4. You must provide a link to the original repository
+4. You must provide a link to the original repository (https://github.com/devhowyalike/sifters-in-the-land-of-fun)
 
 ## Examples of Prohibited Actions
 

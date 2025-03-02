@@ -4,12 +4,16 @@
 
 **Insert coin to win!**
 
+**[https://sifters-in-the-land-of-fun.vercel.app/](https://sifters-in-the-land-of-fun.vercel.app/)**
+
+## About
+
 _Sifters in the Land of Fun_ is an original pixel art game from San Francisco-based musician and artist, [Yameen](https://yameenmusic.com).
 
 It was originally released in 2011 to promote the launch of the album,
 _[Never Knows Encore](https://yameenmusic.com/blog/category/never-knows-encore/)_.
 
-In 2025, Yameen released a completely rewritten version of the game, updating the code for modern devices, removing legacy and outdated tech stacks, incorporating quality-of-life improvements, and open-sourcing it under the MIT License and the Custom Creative Assets License.
+In 2025, the game was completely rewritten, updating the code for modern devices, removing legacy and outdated tech stacks, incorporating quality-of-life improvements, and open-sourcing it under the MIT License and the Custom Creative Assets License.
 
 [![License: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg)](./CODE_LICENSE.md)
 [![License: Custom](https://img.shields.io/badge/Assets-All_Rights_Reserved-red.svg)](./ASSETS_LICENSE.md)

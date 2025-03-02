@@ -17,13 +17,13 @@ When using any part of this project, you must provide proper attribution:
 ### For code (MIT License):
 
 - Include the MIT License copyright notice in your documentation
-- Example: "Includes code from Sifters in the Land of Fun by Yameen - https://github.com/devhowyalike/sifters-in-the-land-of-fun/"
+- Example: "Includes code from Sifters in the Land of Fun by Yameen - https://github.com/devhowyalike/sifters-in-the-land-of-fun"
 
 ### For creative assets (Custom License):
 
 - You may NOT extract, share, or reuse the creative assets in any way
 - If displaying the assets as part of using the application code, you must provide visible credit to Yameen as the creator
-- Example attribution: "Original artwork and sounds by Yameen from Sifters in the Land of Fun (https://github.com/devhowyalike/sifters-in-the-land-of-fun/). All rights reserved."
+- Example attribution: "Original artwork and sounds by Yameen from Sifters in the Land of Fun (https://github.com/devhowyalike/sifters-in-the-land-of-fun). All rights reserved."
 
 Attribution should appear in a visible location - such as credits section, about page, or documentation.
 
