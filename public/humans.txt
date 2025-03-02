@@ -1,0 +1,22 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Developed and Programmed by: Yameen
+  Site: https://www.yameenmusic.com
+  Made in San Francisco, California
+  
+/* THANKS */
+  Based on a concept by Benny Brows.
+  Inspired by the Flash game "Arcade Aid" by 42 Entertainment.
+  
+
+:mMMMMh.    +NMMMMy`/MMMMMm.       hMMMMd`     `dMMMMd  oMMMMMMMMMMsoMMMMMMMMMMsoMMMMN+`      .MMMMN
+ `yMMMMN/ .hMMMMm: -NMMMMMMd`     .MMMMMMy    `hMMMMMM` oMMMMNNNNNNsoMMMMNNNNNNooMMMMMMd:     .MMMMN
+   :mMMMMhNMMMNs` .mMMMNMMMMy     oMMMMMMMo   sMMMMMMM+ oMMMMs``````oMMMMy``````oMMMMMMMMy.   .MMMMN
+    `sNMMMMMMd:  `dMMMM:yMMMM+    mMMMNMMMM/ oMMMNMMMMh oMMMMdooooo.oMMMMdooooo.oMMMMmmMMMNo` .MMMMN
+      :NMMMMs`   yMMMMo `mMMMN:  -MMMMssMMMNoMMMM+dMMMM`oMMMMMMMMMM:oMMMMMMMMMM:oMMMMs.sNMMMd/.MMMMN
+       dMMMM:   oMMMMN///sMMMMN. sMMMM: yMMMMMMMo oMMMM+oMMMMd+++++.oMMMMd+++++.oMMMMs  -hMMMMhMMMMN
+       dMMMM:  /MMMMMMMMMMMMMMMd.NMMMN  `dMMMMMs  -MMMMhoMMMMs``````oMMMMy``````oMMMMs   `/mMMMMMMMN
+       dMMMM: -NMMMMo++++++hMMMMmMMMMy   .mMMMy    NMMMMsMMMMNNNNNNsoMMMMNNNNNNooMMMMs     `sMMMMMMN
+       dMMMM:.mMMMM/       `mMMMMMMMM/    -NMh`    yMMMMmMMMMMMMMMMsoMMMMMMMMMMsoMMMMs       -dMMMMN

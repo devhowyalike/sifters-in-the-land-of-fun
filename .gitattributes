@@ -1,0 +1,14 @@
+# Source code - MIT License
+*.js    license=MIT
+*.json  license=MIT
+*.html  license=MIT
+*.css   license=MIT
+/src/** license=MIT
+
+# Creative assets - Custom License (All Rights Reserved)
+*.png   license=NONE
+*.jpg   license=NONE
+*.gif   license=NONE
+*.mp3   license=NONE
+*.wav   license=NONE
+/assets/**  license=NONE
