@@ -57,7 +57,7 @@ export default defineConfig(({ command }) => {
         transformIndexHtml(html) {
           // Critical CSS to inline (always applied in both dev and prod)
           const criticalCss = `
-            body{margin:0;padding:0;background:url(assets/images/yameenArcadeCab.png) no-repeat center top #2b2d4b;height:1568px;font:13px/1.231 arial,helvetica,clean,sans-serif}#container{position:absolute;width:800px;height:600px;display:none;left:50%;margin-left:-400px;top:440px}#bootUp{position:absolute;left:50%;margin-left:-399px;top:440px}#bootUp p{color:#fff;text-transform:uppercase;font-size:200%}.bootup{padding:20px}@font-face{font-family:"Sifters";src:url("assets/fonts/arcade-font.woff") format("woff");font-weight:normal;font-style:normal}
+            body{position:relative;margin:0;padding:0;background:url(assets/images/yameenArcadeCab.png) no-repeat center top #2b2d4b;height:1568px;font:13px/1.231 arial,helvetica,clean,sans-serif}#container{position:absolute;width:800px;height:600px;display:none;left:50%;margin-left:-400px;top:440px}#bootUp{position:absolute;left:50%;margin-left:-399px;top:440px}#bootUp p{color:#fff;text-transform:uppercase;font-size:200%}.bootup{padding:20px}@font-face{font-family:"Sifters";src:url("assets/fonts/arcade-font.woff") format("woff");font-weight:normal;font-style:normal}.logo-lockup{display:flex;justify-content:center;align-items:center;width:100%;position:absolute;bottom:25px}.logo-list{display:flex;list-style:none;padding:0;margin:0;gap:30px;justify-content:center;align-items:center}.logo-list li{display:flex;justify-content:center;align-items:center}.logo-lockup__logo{height:40px;width:auto;object-fit:contain;transition:all 0.3s ease}
           `;
           
           // Insert critical CSS (for both dev and prod)

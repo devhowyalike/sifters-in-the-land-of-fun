@@ -132,6 +132,7 @@ tt {
 
 /*PIXEL GAME*/
 body {
+  position: relative;
   background: url(/assets/images/yameenArcadeCab.png) no-repeat center top
     #2b2d4b;
   height: 1568px;
@@ -607,4 +608,41 @@ p.download a {
 
 .bootup {
   padding: 20px;
+}
+
+.logo-lockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+}
+
+.logo-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-lockup__logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.logo-lockup__logo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
