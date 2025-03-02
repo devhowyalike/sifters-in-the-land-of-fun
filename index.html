@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Sifters in the Land of Fun - A Pixel Art Game by Yameen</title>
+    <meta name="author" content="Yameen">
+    <meta
+      name="description"
+      content="Sifters in the land of fun. A pixel art game from Yameen."
+    />
+    <meta
+      property="og:title"
+      content="Sifters in the Land of Fun - A Pixel Art Game"
+    />
+    <meta property="og:site_name" content="Sifters in the Land of Fun" />
+    <meta
+      property="og:url"
+      content="http://sifters.in/the-land-of-fun/"
+    />
+    <meta
+      property="og:description"
+      content="A Pixel Art Game from Yameen"
+    />
+    <meta property="og:type" content="game" />
+    <meta
+      property="og:image"
+      content="/assets/images/yameen-fbml-icon.png"
+    />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="preload" href="/assets/images/yameenArcadeCab.png" as="image" type="image/png">
+    <link rel="preload" href="/assets/fonts/arcade-font.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/assets/images/audioPlaySprite.png" as="image" type="image/png">
+    <link rel="preload" href="/assets/images/hintsQuesSprite.png" as="image" type="image/png">
+    <link rel="preload" href="/assets/images/checkmark.gif" as="image" type="image/gif">
+    <link rel="preload" href="/assets/images/input-bg.gif" as="image" type="image/gif">
+    <link rel="preload" href="/assets/images/submit.gif" as="image" type="image/gif">
+    <link rel="preload" href="/assets/images/score-bg.png" as="image" type="image/png">
+    <link rel="preload" href="/assets/images/scanLine.png" as="image" type="image/png">
+    <link rel="preload" href="/assets/images/yameen-am-winner.gif" as="image" type="image/gif">
+    <link rel="preload" href="/assets/images/winnersDont.gif" as="image" type="image/gif">
+  </head>
+
+  <body>
+    <div id="bootUp" class="bootup">
+      <p class="bootup-text">&#9608; BOOTING...</p>
+    </div>
+    <!--end bootUp-->
+    <div id="container">
+      <div id="how-to-play">
+        <div class="instructions">
+          <h3>How to Play:</h3>
+          <ul class="instructions-list">
+            <li>
+              Navigate the <strong>Land of Fun</strong> by dragging or scrolling with your input device (mouse, trackpad, touch,&nbsp;etc.).
+            </li>
+            <li>
+              <strong>Sift</strong> for hidden Philadelphia &amp; San Francisco-themed hot spots by
+              clicking&nbsp;around.
+            </li>
+            <li>
+              When you discover a hot spot, correctly name it for maximum&nbsp;bonus!
+            </li>
+            <li class="option1">
+              Click the <span class="bonus1 bonus">music icon</span> button to
+              pause or play&nbsp;music
+            </li>
+            <li class="option2">
+              Click the <span class="bonus2 bonus">cheat sheet icon</span>
+              button for hints (heads up: they impact your&nbsp;score!)
+            </li>
+          </ul>
+          <ul class="bonus">
+            <li class="option3">
+              To enable sound in the game, please consider upgrading your web
+              browser
+            </li>
+          </ul>
+          <h4>Insert Coin <span class="noFont">&#187;</span></h4>
+        </div>
+        <!--end instructions-->
+      </div>
+      <!--end how-to-play-->
+      <div id="playground">
+        <img
+          src="/assets/images/yameen-pixel-art-contest-lg-jpg.jpg"
+          alt=""
+          usemap="#map"
+          class="bg"
+        />
+        <map name="map" id="map">
+          <area
+            shape="poly"
+            coords="979,1858,1199,1858,1198,1794,1202,1531,1186,1529,1151,1531,1151,1521,1158,1517,1159,1444,1144,1433,1062,1431,1042,1438,1021,1462,1020,1503,1032,1516,1032,1534,988,1535,987,1792,978,1792,978,1846"
+            href=""
+            id="genos"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="1712,2101,1789,2065,1790,2043,1768,2030,1767,2007,1754,1999,1746,1989,1746,1950,1739,1938,1726,1928,1721,1925,1722,1903,1724,1890,1745,1871,1745,1828,1752,1823,1753,1806,1749,1797,1730,1799,1722,1804,1722,1823,1730,1829,1730,1855,1727,1871,1728,1842,1713,1829,1697,1830,1685,1848,1685,1869,1675,1854,1676,1821,1684,1815,1685,1804,1679,1794,1655,1795,1651,1802,1651,1820,1659,1825,1660,1862,1661,1878,1681,1889,1681,1901,1687,1920,1681,1927,1682,1947,1687,1951,1683,1967,1678,1995,1672,1997,1657,2004,1657,2031,1634,2042,1634,2065"
+            href=""
+            id="rocky"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="109,1933,181,1898,181,1868,147,1849,132,1854,124,1855,123,1818,110,1806,95,1806,79,1820,77,1921"
+            href=""
+            id="yameen-dj"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="16,1775,38,1782,60,1786,88,1786,106,1780,124,1780,143,1765,156,1756,169,1740,173,1710,159,1688,146,1673,142,1653,142,1624,171,1609,171,1503,135,1483,100,1504,79,1494,12,1527,3,1551,3,1674,14,1675"
+            href=""
+            id="liberty"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="834,1671,837,1483,516,1325,496,1332,496,1349,504,1366,510,1386,513,1412,514,1480,510,1483,507,1537,513,1541,513,1608,505,1612,505,1649,474,1671,753,1809,755,1725"
+            href=""
+            id="funkomart"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="1167,933,1166,890,1159,883,1157,880,1157,865,1156,854,1168,850,1166,825,1163,812,1174,792,1177,761,1154,743,1130,732,1097,728,1075,742,1054,762,1036,790,1003,779,966,791,967,805,971,875,962,877,963,889,972,890,1001,954,1002,978,1010,979,1010,960,1033,973,1036,992,1046,993,1046,971,1056,967,1062,943,1076,947,1085,950,1085,970,1095,970,1096,948,1152,919,1157,934"
+            href=""
+            id="love"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="1556,1183,1556,1154,1556,1126,1544,1100,1527,1095,1496,1097,1451,1137,1437,1163,1431,1211,1486,1239,1554,1205"
+            href=""
+            id="hiero"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="1259,595,1311,632,1545,609,1507,458,1505,388,1484,378,1485,361,1481,347,1463,345,1455,278,1410,7,1394,7,1344,304,1297,329,1305,378,1309,410"
+            href=""
+            id="a0"
+            alt=""
+          />
+          <area
+            shape="poly"
+            coords="1742,1462,1742,1283,1708,1264,1431,1410,1440,1431,1423,1451,1422,1632,1462,1669,1505,1691,1505,1742,1522,1739,1525,1721,1703,1648,1705,1478"
+            href=""
+            id="amoeba"
+            alt=""
+          />
+        </map>
+        <div id="score">
+          <div id="count">
+            <p>Score: <span id="score-led">0</span> / 9</p>
+          </div>
+          <!--end count-->
+          <form>
+            <fieldset>
+              <legend>Answers</legend>
+              <input
+                name=""
+                type="text"
+                value=""
+                class="answers"
+                id="answer-field"
+              />
+              <input
+                type="image"
+                src="/assets/images/submit.gif"
+                title="Submit"
+                class="submit"
+                alt="Submit"
+              />
+            </fieldset>
+          </form>
+        </div>
+        <!--end score-->
+      </div>
+      <!--end playground-->
+      <div id="audio-player">
+        <button>Tuneage, yo</button>
+      </div>
+      <!--end audio-player-->
+
+      <div id="mapKey">
+        <button id="showKey" class="showKey mapKey">Hints</button>
+        <button id="hideKey" class="hideKey mapKey">Return to Game</button>
+      </div>
+      <!--end mapKey-->
+
+      <div id="amWin">
+        <div id="finalScore">
+          <h2>AM WINNER!</h2>
+          <div class="results">
+            <div id="leaderboard">
+              <h3>Results:</h3>
+              <ul>
+                <li class="cheat">Cheated: Never</li>
+                <li class="time">Time: Is too expensive</li>
+              </ul>
+            </div>
+            <!--end leaderboard-->
+
+            <div id="share" class="clearfix">
+              <h3>Share Your Score</h3>
+              <p>Tweet your score or post to your Facebook wall:</p>
+              <ul>
+                <li class="twitter social-button">
+                  <button
+                    class="twitter-share-button"
+                    >🐤 Tweet</button>
+                </li>
+                <li class="facebook social-button">
+                  <div id="fb-root"></div>
+                  <button>👍 Like</button>
+                </li>
+              </ul>
+            </div>
+            <!--end share-->
+
+            <div id="timeBonus" class="clearfix"></div>
+          </div>
+          <!--end finalScore-->
+        </div>
+        <!--end results-->
+
+        <div id="counter">Sifting in the #LandOfFun. I never cheated</div>
+        <!--end counter-->
+        <div id="displayCounter"></div>
+        <!--end displayCounter-->
+      </div>
+      <!--end amWin-->
+
+      <div id="mapLegend">
+        <ul>
+          <li class="mapHead">&#67;&#104;&#101;&#97;&#116;&#32;&#83;&#104;&#101;&#101;&#116;&#33;&#32;&#71;&#101;&#116;&#33;</li>
+          <li class="key1">&#72;&#105;&#101;&#114;&#111;&#103;&#108;&#121;&#112;&#104;&#105;&#99;&#115;</li>
+          <li class="key2">&#71;&#101;&#110;&#111;&#39;&#115;&#32;&#83;&#116;&#101;&#97;&#107;&#115;</li>
+          <li class="key3">&#89;&#97;&#109;&#101;&#101;&#110;</li>
+          <li class="key4">&#84;&#114;&#97;&#110;&#115;&#97;&#109;&#101;&#114;&#105;&#99;&#97;&#32;&#80;&#121;&#114;&#97;&#109;&#105;&#100;</li>
+          <li class="key5">&#82;&#111;&#99;&#107;&#121;</li>
+          <li class="key7">&#76;&#111;&#118;&#101;&#32;&#80;&#97;&#114;&#107;</li>
+          <li class="key8">&#65;&#109;&#111;&#101;&#98;&#97;&#32;&#77;&#117;&#115;&#105;&#99;</li>
+          <li class="key9">&#76;&#105;&#98;&#101;&#114;&#116;&#121;&#32;&#66;&#101;&#108;&#108;</li>
+          <li class="key10">&#70;&#117;&#110;&#107;&#45;&#79;&#45;&#77;&#97;&#114;&#116;</li>
+        </ul>
+      </div>
+      <!--end mapLegend-->
+      <div id="audioCatchAll"></div>
+      <!--end audioCatchAll-->
+    </div>
+    <!--end container-->
+
+    <script src="/main.js" type="module" fetchpriority="high"></script>
+  </body>
+</html>
