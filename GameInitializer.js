@@ -25,7 +25,6 @@ export class GameInitializer {
       scoreLedElement: this.uiManager.getScoreLed(),
       finalScoreElement: this.uiManager.getFinalScore(),
     });
-
     // Init AudioManager
     audioManager.loadControls();
     
@@ -46,19 +45,12 @@ export class GameInitializer {
     const inputHandler = new InputHandler(gameState, this.uiManager);
     
     // Setup remaining components
-    this._setupRemainingComponents(
-      audioManager, 
-      counterManager, 
-      keyboardManager,
-      gameState,
-      this.uiManager
-    );
+    this._setupRemainingComponents(audioManager, counterManager);
   }
   
   _setupRemainingComponents(audioManager, counterManager) {
-    
     // Initialize credits
-    const credits = new ShowCredits();
+    new ShowCredits();
     
     // Setup game start with audio
     const howToPlay = document.getElementById("how-to-play");
