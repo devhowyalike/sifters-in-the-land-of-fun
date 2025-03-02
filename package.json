@@ -1,18 +1,21 @@
 {
   "name": "sifters-in-the-land-of-fun",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "A pixel art game by Yameen",
   "main": "main.js",
   "author": "Yameen",
   "license": "See LICENSE in LICENSE.md",
   "type": "module",
+  "engines": {
+    "node": "20.11.1"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "serve": "vite build && vite preview"
   },
-  "keywords": [],
+  "keywords": ["game", "pixel art", "yameen", "web game"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devhowyalike/sifters-in-the-land-of-fun.git"
