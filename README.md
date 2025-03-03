@@ -22,7 +22,7 @@ In 2025, the game was completely rewritten, updating the code for modern devices
 
 - Sift for hidden Philadelphia & San Francisco-themed hot spots by dragging, scrolling & clicking around.
 - When you discover a hot spot, correctly name it for the win!
-- Answer all the questions correctly to win a prize.
+- Answer all the questions and win a prize.
 - Avoid accessing the Cheat Sheet for maximum bonus.
 
 ## Features
