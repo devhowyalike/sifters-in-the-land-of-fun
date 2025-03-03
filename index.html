@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Sifters in the Land of Fun - A Pixel Art Game by Yameen</title>
     <meta name="author" content="Yameen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta
       name="description"
       content="Sifters in the land of fun. A pixel art game from Yameen."
@@ -46,6 +47,29 @@
       <p class="bootup-text">&#9608; BOOTING...</p>
     </div>
     <!--end bootUp-->
+    <div class="arcade-cabinet-container">
+      <img 
+        src="/assets/images/yameenArcadeCab.png" 
+        alt="Yameen Arcade Cabinet" 
+        class="arcade-cabinet-img"
+        loading="eager"
+        fetchpriority="high"
+      >
+      <div class="logo-lockup">
+        <ul class="logo-list">
+          <li>
+            <a href="https://www.yameenmusic.com/" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/yameen-logo.svg" alt="Yameen Logo written in stylized graffiti" class="logo-lockup__logo yameen-logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/devhowyalike/sifters-in-the-land-of-fun" target="_blank" rel="noopener noreferrer">
+              <img src="/assets/images/github-logo.svg" alt="Github logo" class="logo-lockup__logo github-logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div id="container">
       <div id="how-to-play">
         <div class="instructions">
@@ -194,7 +218,7 @@
 
       <div id="amWin">
         <div id="finalScore">
-          <h2>AM WINNER!</h2>
+          <img src="/assets/images/yameen-am-winner.gif" alt="AM WINNER!" class="am-winner-img">
           <div class="results">
             <div id="leaderboard">
               <h3>Results:</h3>
@@ -254,21 +278,6 @@
       <!--end audioCatchAll-->
     </div>
     <!--end container-->
-
-    <div class="logo-lockup">
-      <ul class="logo-list">
-        <li>
-          <a href="https://www.yameenmusic.com/" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/images/yameen-logo.svg" alt="Yameen Logo written in stylized graffiti" class="logo-lockup__logo yameen-logo">
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/devhowyalike/sifters-in-the-land-of-fun" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/images/github-logo.svg" alt="Github logo" class="logo-lockup__logo github-logo">
-          </a>
-        </li>
-      </ul>
-    </div>
 
     <script src="/main.js" type="module" fetchpriority="high"></script>
   </body>

@@ -1,7 +1,9 @@
 import neoGeoBootUp from '../audio/creditsNeoGeo.mp3';
+import winnersDont from '/assets/images/winnersDont.gif';
 
 const creditsHtml = `
 <div id="credits">
+<img src="${winnersDont}" alt="Winners Don't Use Drugs" class="credits-img">
 <ul>
 <li>Programming and development: Yameen</li>
 <li>Pixel Art: Army of Trolls</li>
