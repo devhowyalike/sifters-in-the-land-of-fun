@@ -76,7 +76,13 @@ In 2025, the game was completely rewritten, updating the code for modern devices
 
 ### `v1.0` - 2011
 
-The original _Sifters in the Land of Fun_ launched in 2011 with a tech stack to match its era.
+The original _Sifters in the Land of Fun_ launched in 2011 with a tech stack to match its era:
+
+- PHP
+- jQuery
+- HTML5
+- CSS3
+- JavaScript
 
 The game's original URL was `sifters.in`, which, with the help of a redirect, resolved to `sifters.in/the-land-of-fun/`.
 
@@ -93,14 +99,6 @@ Otherwise, desktop users were redirected to the game's landing page.
 Several hacks—mostly in support of transparent PNGs—were used to provide compatibility for Internet Explorer 11, a browser that was frustratingly still in use at the time.
 
 Conveniently, these hacks were served only to Internet Explorer users through well-documented browser detection methods, providing a quicker loading experience for the majority of users.
-
-#### Tech Stack
-
-- PHP
-- jQuery
-- HTML5
-- CSS3
-- JavaScript
 
 ## Licensing
 
