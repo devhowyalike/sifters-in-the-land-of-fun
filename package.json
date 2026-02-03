@@ -7,7 +7,7 @@
   "license": "See LICENSE in LICENSE.md",
   "type": "module",
   "engines": {
-    "node": "20.11.1"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "vite",

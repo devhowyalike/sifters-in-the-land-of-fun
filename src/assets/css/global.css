@@ -430,6 +430,17 @@ audio {
   text-shadow: 2px 2px rgba(82, 50, 73, 0.9);
   font-size: clamp(14px, 2.5vw, 22px);
   word-spacing: clamp(-8px, -1vw, -4px);
+  animation: insertCoinPulse 2s ease-in-out infinite;
+}
+
+@keyframes insertCoinPulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
 }
 
 .instructions ul {
