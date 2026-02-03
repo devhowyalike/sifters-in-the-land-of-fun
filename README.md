@@ -4,7 +4,7 @@
 
 **Insert coin to win!**
 
-**[https://sifters-in-the-land-of-fun.vercel.app/](https://sifters-in-the-land-of-fun.vercel.app/)**
+**[https://sifters.app](https://sifters.app)**
 
 ## About
 
